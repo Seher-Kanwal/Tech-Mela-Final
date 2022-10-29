@@ -26,3 +26,41 @@ can register for online event as well as for physical events too.
 > - Admin can design a quiz in order to make session or event more attractive. 
 > - Admin can upload the code labs and other study stuff. 
 > - Admin can generate certificates for the attendant of the event. 
+
+
+
+## Technology Used For Project :
+we are using **Dot Net Framework with C#** for the Development of the project
+
+
+
+# Working Details Till Now:
+
+## Data Source:
+For now, we are using json file as a data source that contains the details about different events.
+> ## Elemets in the Data Source:
+>
+> - **Id** :<br>
+> Unique identity of each Event
+>
+> - **Image** :<br>
+> Contains the url of the poster that belongs to an event 
+>
+> - **Category** :<br>
+> It contains the info about the category of the event we have different options here:
+>
+>>   - Web Development
+>>   - Application Development 
+>>   - Git and Github
+>>   - Open Soucrce Contribution
+>>   - Machine Learning & AI
+>
+> - **Speaker Name** :<br>
+> Contains the name of the speaker who is going to entertain the attendees event 
+>
+> - **Heading** :<br>
+> Contains the main line that represents the actuall aim of the event
+>
+> - **Description** :<br>
+> Contains the whole details about the event it includes the agenda and all the other information for example if the event include workshop than which tools and
+> technolgies the attendee needs to have
