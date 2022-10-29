@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Tech_Mela_Final.Services;
 
 namespace Tech_Mela_Final
 {
@@ -24,6 +25,9 @@ namespace Tech_Mela_Final
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            // adding a the jsonEventDetails Service
+            services.AddTransient<jsonEventDetailsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

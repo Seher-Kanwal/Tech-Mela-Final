@@ -8,3 +8,12 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+@foreach(var Event in Model.Event)
+{
+  <div class="card">
+  <div class="container">
+    <h4><b>@Event.heading</b></h4>
+    <p>@Event.description</p>
+  </div>
+</div>
+}
