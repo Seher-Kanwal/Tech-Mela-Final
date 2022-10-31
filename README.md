@@ -64,3 +64,10 @@ For now, we are using json file as a data source that contains the details about
 > - **Description** :<br>
 > Contains the whole details about the event it includes the agenda and all the other information for example if the event include workshop than which tools and
 > technolgies the attendee needs to have
+
+# Description about Project Design:
+We didn't start a MVC project. We started from a simple template than we are creating each MVC componet seperately to understand the working of MVC properply for this
+we are creating different folders for different functions. For example:
+- Controllers (for Css, for Form)
+- Services (For getting data from Data source)
+- View (for displaying data to the User)
