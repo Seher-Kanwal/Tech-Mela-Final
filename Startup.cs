@@ -28,6 +28,8 @@ namespace Tech_Mela_Final
 
             // adding a the jsonEventDetails Service
             services.AddTransient<jsonEventDetailsService>();
+            services.AddTransient<CssService>();
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +56,7 @@ namespace Tech_Mela_Final
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

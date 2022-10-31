@@ -1,0 +1,17 @@
+﻿@page
+@model Tech_Mela_Final.Pages.EventsPageModel
+@{
+    ViewData["Title"] = "Event Details";
+}
+<div class="row">
+   @foreach (var item in Model.EventDetails)
+  {
+      <div id="bookContainer" class="col-lg-3 col-md-4 col-sm-1">
+            <img id="Event Image" style="width: 100%; height: 100%;" src="@item.image" alt="@item.heading" />
+            <span id="Event Handing">@item.heading</span>
+            <span id="Event price">Rs. Coming Soon</span>
+            <span id="bookQuantity"><input id="quantityInput" type="number" name="bookQuantity" value="" placeholder="0" /></span>
+            <span id="bookCartButton"><button id="btn"><span class="fa fa-shopping-cart"></span>Add to Cart</button></span>
+        </div>
+  }
+</div>
