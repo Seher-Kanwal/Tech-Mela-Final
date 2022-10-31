@@ -1,6 +1,33 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+#EventContainer {
+    margin-bottom: 15%;
+}
 
+#EventkImage {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    margin-bottom :20px
+}
+
+#EventHanding {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#speaker {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: dimgrey;
+    font-style: italic;
+}
 a.navbar-brand {
   white-space: normal;
   text-align: center;
