@@ -81,7 +81,20 @@ We create a model with some parameter of json property type to get and set value
 ![model code](https://user-images.githubusercontent.com/92606737/198924509-9226e465-e364-4128-88c5-513a77f60ab9.PNG)
 
 
-and we know that our data source is in json. So we used JsonSeriliazer to convert our data into Json formate. For this purpose we just override a function **ToString()**
+and we know that our data source is in json. So we used JsonSeriliazer to convert our data into Json formate. For this purpose we just override a function 
+**ToString()**
+
+
 ![json tostring](https://user-images.githubusercontent.com/92606737/198924839-2056c8f2-016a-40bb-8d12-8e1c7b7e3c18.PNG)
 
+
+# Services:
+We are write services in order to perform various task on our data. And than using all these services in controllers insteading of writting each function again and again. We are using the same services in the controller to perform operations just by creating the object of the service class.
+#### Service in the project:
+- jsonEventDetailsService
+- CssService
+
+### jsonEventDetailsService
+This service perform different operation on data. The functions are defined in that services are given below:
+#### getpath():
 
