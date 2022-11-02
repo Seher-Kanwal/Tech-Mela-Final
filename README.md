@@ -97,4 +97,7 @@ We are write services in order to perform various task on our data. And than usi
 ### jsonEventDetailsService
 This service perform different operation on data. The functions are defined in that services are given below:
 #### getpath():
+As our data is residing in our project directory. To perform operations on this data we need to have it's path. This Function actually gets the path of data file dynamically. It utillizing the  IWebHostEnvironment data type to get the root of the directory than by using the __combine function__ it's take the few arguments and than return the path of the data source.
+
+![getpath fn](https://user-images.githubusercontent.com/92606737/199370155-59f03e05-0fbf-4514-acf8-67b30a159805.PNG)
 
