@@ -101,3 +101,9 @@ As our data is residing in our project directory. To perform operations on this 
 
 ![getpath fn](https://user-images.githubusercontent.com/92606737/199370155-59f03e05-0fbf-4514-acf8-67b30a159805.PNG)
 
+
+### CssService
+Here in our project, instead of passing the directly CSS file address. We are passing a link that leads to the CSS file in the layout file. So to read the Data from the CSS file we write a service that do this task efficiently. Whenever we need our CSS for use, instead of writting all code again we just create an obj of service than call it's getCSS function that return a string from the CSS file.
+
+
+![css service](https://user-images.githubusercontent.com/92606737/199659439-63b7d981-b996-4ccd-be35-5eb7d988470d.PNG)
