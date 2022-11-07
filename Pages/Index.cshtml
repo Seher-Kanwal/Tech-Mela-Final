@@ -4,16 +4,31 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-@foreach(var Event in Model.Event)
-{
-  <div class="card">
-  <div class="container">
-    <h4><b>@Event.heading</b></h4>
-    <p>@Event.description</p>
-  </div>
-</div>
-}
+
+<form action="/FormHandler" method="get">
+    <label for="id">Enter the Event ID:</label>
+    <input id="id" type="number" name="id" value="" required />
+
+    <label for="heading">Enter the Event Heading:</label>
+    <input id="heading" type="text" name="heading" value="" required />
+
+    <label for="image">Enter the Event Poster URL:</label>
+    <input id="image" type="text" name="image" value="" required />
+
+    <label for="description">Enter the Event Complete Desription:</label>
+    <input id="description" type="text" name="description" value="" required />
+
+    <label for="speaker">Enter Event Speaker Name:</label>
+    <input id="speaker" type="text" name="speaker" value="" required />
+
+    <label for="category">Select Domain:</label>
+
+    <select name="category" id="category">
+      <option value="web">WEB</option>
+      <option value="data_scince">Data Science</option>
+      <option value="andriod_development">Andriod Development</option>
+      <option value="flutter">Flutter</option>
+    </select>
+
+    <input type="submit" name="submit" value="Submit" />
+</form>

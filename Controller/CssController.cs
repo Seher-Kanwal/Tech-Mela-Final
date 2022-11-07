@@ -15,9 +15,11 @@ namespace Tech_Mela_Final.Controller
             this.cssService = cssService;
         }
         [HttpGet]
-        public string Get()
+        // here we can use string but we need to return the result and than rendered it 
+        // so it's a better approach to return it as a Content
+        public ContentResult Get()
         {
-            return cssService.getCss();
+            return Content(cssService.getCss());
         }
 
     }
