@@ -9,8 +9,8 @@ namespace Tech_Mela_Final.Services
 {
     public class jsonEventDetailsService
     {
-        /* we create this bcs we want to locate the root folder to get json file and this is possible only if we are able
-         to get the enviroment of the host */
+        /* we create this bcs we want to locate the root folder to get json file and this is possible only 
+         * if we are able to get the enviroment of the host */
         IWebHostEnvironment webHostEnvironment { get; }
 
         // Constructor for getting the webhost enviroment
@@ -33,8 +33,13 @@ namespace Tech_Mela_Final.Services
                 return JsonSerializer.Deserialize<Events[]>(file.ReadToEnd());
             }
         }
+        public string Get(int id, string heading, string image, string desription, string speaker) {
+            return " ";
+        }
+
     }
 }
+
 
 /*
  1 - Create webhost var
