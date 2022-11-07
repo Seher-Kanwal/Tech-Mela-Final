@@ -76,6 +76,7 @@ we are creating different folders for different functions. For example:
 - View (for displaying data to the User)
 
 ## Model :
+
 We create a model with some parameter of json property type to get and set values within the data source.
 
 ![model code](https://user-images.githubusercontent.com/92606737/198924509-9226e465-e364-4128-88c5-513a77f60ab9.PNG)
