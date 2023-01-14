@@ -90,7 +90,7 @@ and we know that our data source is in json. So we used JsonSeriliazer to conver
 
 
 # Services:
-We are write services in order to perform various task on our data. And than using all these services in controllers insteading of writting each function again and again. We are using the same services in the controller to perform operations just by creating the object of the service class.
+We write services in order to perform various task on our data. And than using all these services in controllers insteading of writting each function again and again. We are using the same services in the controller to perform operations just by creating the object of the service class.
 #### Service in the project:
 - jsonEventDetailsService
 - CssService
