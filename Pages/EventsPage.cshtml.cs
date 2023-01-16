@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Tech_Mela_Final.Models;
+using Tech_Mela_Final.Model;
 using Tech_Mela_Final.Services;
 
 namespace Tech_Mela_Final.Pages

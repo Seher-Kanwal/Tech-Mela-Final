@@ -5,12 +5,12 @@ using Tech_Mela_Final.Services;
 namespace Tech_Mela_Final.Controller
 {
     [Route("[controller]")]
-    [ApiController]
+    [ApiController]           
     public class CssController : ControllerBase
     {
         // create obj of the service
        public CssService cssService { get; }
-     public  CssController(CssService cssService)
+       public  CssController(CssService cssService)
         {
             this.cssService = cssService;
         }
@@ -24,8 +24,6 @@ namespace Tech_Mela_Final.Controller
 
     }
 }
-
 /*
  adding in the start up file
- 
  */

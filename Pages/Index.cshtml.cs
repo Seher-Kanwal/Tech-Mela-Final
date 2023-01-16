@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using Tech_Mela_Final.Models;
+using Tech_Mela_Final.Model;
 using Tech_Mela_Final.Services;
 
 namespace Tech_Mela_Final.Pages
