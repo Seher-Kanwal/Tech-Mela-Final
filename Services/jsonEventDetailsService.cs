@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using Microsoft.AspNetCore.Hosting;
-using Tech_Mela_Final.Models;
+using Tech_Mela_Final.Model;
 
 namespace Tech_Mela_Final.Services
 {

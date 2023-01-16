@@ -2,9 +2,11 @@
 
 namespace Tech_Mela_Final.Controller
 {
-    [Route("[controller]")]
     public class FormHandlerController : Controller
     {
-        
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }
